@@ -1,0 +1,20 @@
+<div>
+    Heroes
+    <hr>
+
+    <div *ngIf="heroes.length > 0; else noData">
+        <ul>
+            <li *ngFor="let hero of heroes">
+                {{ hero }}
+            </li>
+        </ul>
+    
+        <button (click)="deleteHero()">Delete hero</button>
+
+        <h5 *ngIf="deletedHero.length > 0">Deleted hero: <small>{{ deletedHero }}</small></h5>
+    </div>
+
+    <ng-template #noData>
+        <small>There are not data to show.</small>
+    </ng-template>
+</div>

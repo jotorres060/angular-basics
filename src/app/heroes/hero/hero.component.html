@@ -1,0 +1,20 @@
+<div>
+    <h1>Hero Component</h1>
+
+    <dl>
+        <td>Name</td>
+        <dd>{{ name }}</dd>
+
+        <td>Age</td>
+        <dd>{{ age }}</dd>
+
+        <td>Info</td>
+        <dd>{{ getInfo() }}</dd>
+
+        <td>Capitalized name</td>
+        <dd>{{ capitalizedName }}</dd>
+    </dl>
+
+    <button (click)="changeHero()">Change hero</button>
+    <button (click)="changeAge()">Change age</button>
+</div>
