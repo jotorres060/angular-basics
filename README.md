@@ -1,1 +1,1 @@
-## Angular course 2021
+## Angular basics
