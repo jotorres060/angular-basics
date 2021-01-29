@@ -9,4 +9,4 @@ import { AccumulateComponent } from './accumulate/accumulate.component';
         AccumulateComponent
     ]
 })
-export class AccumulateModule {}
+export class AccumulateModule { }
